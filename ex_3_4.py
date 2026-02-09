@@ -50,7 +50,7 @@ plt.xticks(ts, labels)
 plt.ylabel(r'$\omega(k_x,k_y)$')
 plt.xlabel('Path in ' + r'$\vec{k}$')
 plt.title('Plot of ' + r'$\omega(k_x,k_y)$' + ' for a bidimensional square lattice')
-plt.grid(True, which='both', axis='both', ls='--', linewidth=0.6, alpha=0.7)
+plt.grid(True, which='both', axis='both', ls='--', linewidth=0.6)
 plt.savefig("3.2.png")
 
 
@@ -83,7 +83,7 @@ plt.plot(centers, hist, color='blue')
 plt.xlabel(r'$\omega$')
 plt.ylabel(r'$D(\omega)$')
 plt.title('Vibrational density of states')
-plt.grid(True, ls='--', alpha=0.7)
+plt.grid(True, ls='--')
 plt.savefig("3.3.png")
 
 # Ex 4.c
@@ -109,7 +109,7 @@ plt.plot(T_vals, C_vals, color='blue')
 plt.xlabel(r'$T$')
 plt.ylabel(r'$C_V$')
 plt.title('Specific heat')
-plt.grid(True, ls='--', alpha=0.7)
+plt.grid(True, ls='--')
 plt.savefig("4.5.png")
 plt.show()
 
