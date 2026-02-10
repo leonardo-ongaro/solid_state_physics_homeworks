@@ -95,7 +95,7 @@ domega = centers[1] - centers[0]
 
 def specific_heat(T):
     x = centers / T
-    integrand = D_omega = hist * (x**2) * np.exp(x) / (np.exp(x) - 1)**2
+    integrand = hist * (x**2) * np.exp(x) / (np.exp(x) - 1)**2
     return np.sum(integrand) * domega
 
 
